@@ -1,4 +1,4 @@
-#Medium
+
 Mern Medium Application
 
 1.1. Mục đích
