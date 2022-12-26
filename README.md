@@ -2,7 +2,9 @@
 Mern Medium Application
 
 1.1. Mục đích
-- Xây dựng trang mạng xã hội giúp mọi người viết bài, chia sẻ bài viết cho cộng đồng một cách miễn phí
+
+	- Xây dựng trang mạng xã hội giúp mọi người viết bài, chia sẻ bài viết cho cộng đồng một cách miễn phí
+	
 1.2.Nhiệm vụ cơ bản
 	 
 	- Mạng xã hội cho phép hiển thị các bài viết đa dạng các lĩnh vực khác nhau
