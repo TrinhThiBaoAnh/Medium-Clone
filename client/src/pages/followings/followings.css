@@ -1,0 +1,29 @@
+.left-item > img{
+    height: 80px;
+    width: 80px;
+}
+.sidebarListItem-following{
+    margin-left: 10%;
+    width: 80%;
+    display: flex;
+    border-bottom: 1px solid #000;
+}
+.right-item{
+    margin: 15px;
+}
+.right-item > p{
+    font-size: 25px;
+}
+.unfollowSubmit{
+    margin-top:35px;
+    padding: 12px 30px;
+    background-color: #f44336;
+    border: none;
+    color: azure;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+.right-item2{
+    margin-left: 500px;
+}

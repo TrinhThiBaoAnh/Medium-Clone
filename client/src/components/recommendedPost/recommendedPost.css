@@ -1,0 +1,68 @@
+.recommendedPost {
+    width: 100%;
+    margin: 0px 250px 40px 25px;
+    padding-bottom: 30px;
+    margin-left: 100px;
+    text-align: left;
+    display: flex;
+    border-bottom: solid 0.5px #000;
+    
+  }
+  
+  .recommendedPostImg {
+    width: 200px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 7px;
+  }
+  
+  .recommendedPostInfo {
+    margin-left: 30px;
+    align-items: left;
+    text-align: left;
+  }
+  
+  .recommendedPostCat {
+    font-family: "Varela Round", sans-serif;
+    font-size: 11px;
+    color: #be9656;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .recommendedPostTitle {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  
+  .recommendedPostDate {
+    font-family: "Lora", serif;
+    font-style: italic;
+    font-size: 13px;
+    color: #999;
+    display: flex;
+    flex-wrap: nowrap;
+    /* margin-top: 15px; */
+  }
+  .recommendedPostTime{
+    margin-left: 20px;
+  }
+  
+  .recommendedPostDesc {
+    font-family: "Varela Round", sans-serif;
+    font-size: 14px;
+    color: #444;
+    line-height: 24px;
+    margin-top: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+  }
+  

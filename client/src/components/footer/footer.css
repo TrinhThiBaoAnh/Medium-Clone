@@ -1,0 +1,18 @@
+.footer{
+    text-align: center;
+    color: beige;
+    background-color: rgb(31, 31, 31);
+    padding-top: 20px;
+}
+.footer-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-item{
+    flex: 4;
+}
+.footer-subtitle{
+    background-color: rgb(121, 119, 118);
+    padding: 20px;
+    border: solid 1px #eee;
+}

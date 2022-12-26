@@ -1,0 +1,85 @@
+.register {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://images.pexels.com/photos/317355/pexels-photo-317355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  
+}
+.register-cat{
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+.categoryList{
+  margin-left: 30px;
+  width: 100%;
+}
+.input-div{
+  width: 200px;
+  display: flex;
+}
+input[type="checkbox"]{
+  margin: 10px;
+  width: 20px;
+  height: 20px;
+}
+label{
+  font-size: 15px;
+  margin: 5px;
+}
+.registerTitle {
+  font-size: 50px;
+}
+.cat-info{
+  margin: 5px;
+  display: flex;
+}
+.registerForm {
+  margin-top: 20px;
+  display: flex;
+  width: 50%;
+}
+
+.registerForm > label {
+  margin: 10px 0;
+}
+.infor{
+  display: flex;
+  flex-direction: column;
+  flex: 4;
+}
+.registerInput {
+  padding: 10px;
+  background-color: white;
+  border: none;
+}
+
+.registerButton {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: teal;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+
+}
+
+.registerLoginButton {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: lightcoral;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+}

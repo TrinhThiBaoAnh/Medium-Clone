@@ -1,0 +1,119 @@
+.userHome{
+    display: flex;
+}
+.sidebar-userHome{
+    flex: 4;
+    margin: 20px;
+    padding-bottom: 30px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+.searchForm > input{
+  color: gray;
+  margin: 10px 40px;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  width: 80%;
+  align-items: center;
+  
+}
+.searchForm {
+  display: flex;
+  
+}
+.searchForm > button{
+  height: 30px;
+  width: fit-content;
+  border: 0;
+  outline: 0;
+  margin-top: 15px;
+  background-color: #ffffff;
+  font-size: 20px;
+  margin-left: -70px;
+}
+.searchForm > button:hover{
+ color: rgb(63, 235, 71);
+}
+.searchForm > input:focus{
+  outline: none;
+}
+.sidebarItem-userHome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sidebarIcon-post1{
+    margin-top: 3px;
+    font-size: 20px;
+    color: #666;
+    padding: 0;
+  }
+  .sidebarTitle-userHome {
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+    background-color: #dddbdb;
+    font-family: "Varela Round", sans-serif;
+    font-size: 12px;
+    color: rgb(22, 22, 22);
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+  }
+  .sidebarItem-userHome {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+  
+  .sidebarItem-userHome > img {
+    margin-top: 15px;
+  }
+  
+  .sidebarItem-userHome > p {
+    padding: 30px;
+  }
+  
+  .sidebarList-userHome {
+    list-style: none;
+    margin-bottom: 30px;
+    /* display: flex; */
+    flex-wrap: wrap;
+  }
+  
+  .sidebarListItem-userHome {
+    display: inline-block;
+    width: 80%;
+    margin: 10px;
+    margin-right: 80px;
+    cursor: pointer;
+    padding: 5px;
+    border: solid 1px #ccc;
+    text-align: center;
+    font-family:"Varela Round", sans-serif;
+  }
+  
+  .sidebarSocial-userHome {
+    margin-top: 15px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sidebarIcon-userHome{
+      font-size: 32px;
+      margin-left: 20px;
+      cursor: pointer;
+      color: black;
+  }
+  .sidebarIntro-userHome{
+      align-items: center;
+      text-align: center;
+  }
+  .sidebarListItem-home{
+    flex-direction: row;
+  }

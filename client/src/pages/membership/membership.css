@@ -1,0 +1,73 @@
+.container-membership{
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+    font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+.header-membership > ul {
+    list-style-type: none;  
+}
+.fa .fa-check-square-o{
+    color: chartreuse;
+}
+.payment-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 27%;
+    
+}
+.monthly{
+    padding: 50px;
+    border: 2px solid #4CAF50;
+    margin-right: 50px;
+}
+.monthly>div>b{
+    font-size: 30px;
+}
+.yearly {
+    padding: 50px;
+    border: 2px solid #4CAF50;
+}
+.yearly>div>b{
+    font-size: 30px;
+}
+.button-select {
+    background-color: #4CAF50; /* Green */
+    width: 200px;
+    color: white;
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 99em;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .payment-card{
+    margin-top: 30px;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 40%;
+    margin-left: 30%;
+  }
+  .payment-card >p{
+    color: rgb(97, 97, 94);
+    font-size: smaller;
+  }

@@ -1,0 +1,356 @@
+.singlePostContainer{
+  display: flex;
+  
+}
+.singlePost {
+  flex: 9;
+}
+.img-author > img{
+  width: 10px;
+  height: 10px;
+}
+.singlePostWrapper {
+  padding: 20px;
+  padding-right: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.singlePostImg {
+  width: 100%;
+  height: 300px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.singlePostTitle {
+  text-align: center;
+  margin: 10px;
+  font-family: "Lora", serif;
+  font-size: 28px;
+}
+
+.singlePostTitleInput {
+  margin: 10px;
+  font-family: "Lora", serif;
+  font-size: 28px;
+  text-align: center;
+  border: none;
+  color: gray;
+  border-bottom: 1px solid lightgray;
+}
+
+.singlePostTitleInput:focus {
+  outline: none;
+}
+
+.singlePostEdit {
+  float: right;
+  font-size: 16px;
+}
+
+.singlePostIcon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.singlePostIcon:first-child {
+  color: teal;
+}
+
+.singlePostIcon:last-child {
+  color: tomato;
+}
+
+.singlePostInfo {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-family: "Varela Round", sans-serif;
+  color: #b39656;
+}
+
+.singlePostDesc {
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.singlePostDesc::first-letter {
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.singlePostDescInput {
+  border: none;
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+  width: 100%;
+  height: 400px;
+}
+
+.singlePostDescInput:focus {
+  outline: none;
+}
+.singlePostButton {
+  width: 100px;
+  border: none;
+  background-color: teal;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-end;
+  margin-top: 20px;
+}
+.related-hoziron{
+  margin: 5%;
+}
+.related-title{
+  margin: 5%;
+  text-transform: capitalize;
+  text-decoration-line: underline;
+}
+.singlePostView > p{
+  color:#666;
+  font-family: "Varela Round", sans-serif;
+  font-size: smaller;
+}
+.singlePostLike > p{
+  color:#666;
+  font-family: "Varela Round", sans-serif;
+  font-size: smaller;
+}
+.singlePostShare > p{
+  color:#666;
+  font-family: "Varela Round", sans-serif;
+  font-size: smaller;
+}
+.viewLikeShare{
+  justify-content: space-between;
+  display: flex;
+}
+.sidebarIcon-post{
+  margin-top: 3px;
+  font-size: 20px;
+  color: #666;
+  padding-left: 15px;
+}
+.viewLikeShare-right{
+  display: flex;
+
+}
+.fb-share{
+  padding-right: 15px;
+}
+.fa-heart{
+  font-size: 25px;
+ 
+}
+.fa-link:hover{
+  color: blue;
+  cursor: pointer;
+}
+.fa-link:visited{
+  color: blue;
+  cursor: pointer;
+}
+.fa-heart:hover{
+  color: red;
+  cursor: pointer;
+}
+.fa-heart:visited{
+  color: red;
+  cursor: pointer;
+}
+.adding > i{
+  font-size: 25px;
+}
+.adding > i:hover{
+  color: rgb(255, 251, 0);
+  cursor: pointer;
+}
+.adding > i:visited{
+  color: rgb(255, 251, 0);
+  cursor: pointer;
+}
+.sidebar {
+  flex: 3;
+  margin: 20px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+.sidebarItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebarTitle {
+  margin: 10px;
+  padding: 5px;
+  width: 80%;
+  border-top: 1px solid #a7a4a4;
+  border-bottom: 1px solid #a7a4a4;
+  font-family: "Varela Round", sans-serif;
+  font-size: 12px;
+  color: #222;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+}
+.sidebarItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebarItem > img {
+  margin-top: 15px;
+}
+
+.sidebarItem > p {
+  padding: 30px;
+}
+
+.sidebarList {
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.sidebarListItem {
+  display: inline-block;
+  width: 50%;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.sidebarSocial {
+  margin-top: 15px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebarIcon{
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.sidebarIntro{
+    align-items: center;
+    text-align: center;
+}
+.authorName{
+  font-weight: bold;
+  font-size: larger;
+}
+.authorFollowers{
+  color: #a7a4a4;
+}
+.btn-follow{
+  margin-top: 20px;
+  padding: 8px 32px 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #34a245;
+  border-radius: 20px;
+  font-size: 15px;
+  color: #34a245;
+  background-color: #ffffff;
+}
+.div-follow :hover {
+  background-color: #34a245;
+  color: #f8fff9;
+}
+.like{
+  display: flex;
+}
+.like > p{
+  margin-top: 5px;
+  margin-left: 5px;
+  font-size: larger;
+  font-weight: bold;
+}
+.tag-section{
+  display: flex;
+}
+.tag-section > h4{
+  margin-left: 10%;
+}
+.tag-section > p{
+  margin-left: 10px;
+}
+.notify-membership{
+  padding: 10px;
+  /* border: #f4511e 3px solid; */
+  background-color: #ffd3c5;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border:none;
+}
+.notify-membership{
+  font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+.ul-notify-membership{
+  margin-left: 5%;
+}
+.ul-notify-membership >li{
+  padding-top: 5px;
+}
+.buttonx {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 400px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-left: 500px;
+  
+}
+
+.buttonx span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonx span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttonx:hover span {
+  padding-right: 25px;
+}
+
+.buttonx:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.tag-span{
+  border-radius: 10px;
+  background-color: #e4e4e4;
+  margin-left: 10px;
+  padding: 5px 10px;
+}
